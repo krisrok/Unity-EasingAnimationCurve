@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EasingFunctions
   m_EditorClassIdentifier: 
   m_Presets:
-  - m_Name: 
+  - m_Name: EaseInQuad
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -38,7 +38,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutQuad
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -63,7 +63,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutQuad
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -97,7 +97,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInCubic
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -122,7 +122,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutCubic
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -147,7 +147,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutCubic
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -181,7 +181,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInQuart
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -206,7 +206,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutQuart
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -231,7 +231,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutQuart
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -265,7 +265,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInQuint
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -290,7 +290,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutQuint
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -315,7 +315,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutQuint
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -349,7 +349,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInSine
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -374,7 +374,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutSine
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -399,7 +399,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutSine
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -433,7 +433,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInExpo
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -458,7 +458,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutExpo
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -483,7 +483,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutExpo
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -517,7 +517,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInCirc
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -542,7 +542,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutCirc
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -567,7 +567,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutCirc
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -601,93 +601,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
-    m_Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - m_Name: 
-    m_Curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 3.5822635
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: 0
-        outWeight: 0.23852958
-      - serializedVersion: 3
-        time: 0.336583
-        value: 0.828268
-        inSlope: 1.7675189
-        outSlope: 1.7674915
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: 0.43742254
-        outWeight: 0.22151233
-      - serializedVersion: 3
-        time: 0.550666
-        value: 1.079651
-        inSlope: 0.30952567
-        outSlope: 0.30952752
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: 0.4695607
-        outWeight: 0.41548836
-      - serializedVersion: 3
-        time: 0.779498
-        value: 0.974607
-        inSlope: -0.23213644
-        outSlope: -0.23214284
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: 0.35856426
-        outWeight: 0.36235142
-      - serializedVersion: 3
-        time: 0.897999
-        value: 1.003668
-        inSlope: 0.27978534
-        outSlope: 0.27974313
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: 0.33310264
-        outWeight: 0.33069265
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: -0.20239142
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: 0.3296829
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInBounce
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -739,7 +653,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutBounc
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -791,7 +705,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutBounce
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -879,7 +793,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInBack
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -904,7 +818,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutBack
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -929,7 +843,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutBack
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -963,7 +877,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInElastic
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -1015,7 +929,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseOutElastic
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -1067,7 +981,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: EaseInOutElastic
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -1155,7 +1069,32 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - m_Name: 
+  - m_Name: Linear
+    m_Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - m_Name: Step
     m_Curve:
       serializedVersion: 2
       m_Curve:
@@ -1194,6 +1133,67 @@ MonoBehaviour:
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - m_Name: Spring
+    m_Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 3.5822635
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.23852958
+      - serializedVersion: 3
+        time: 0.336583
+        value: 0.828268
+        inSlope: 1.7675189
+        outSlope: 1.7674915
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.43742254
+        outWeight: 0.22151233
+      - serializedVersion: 3
+        time: 0.550666
+        value: 1.079651
+        inSlope: 0.30952567
+        outSlope: 0.30952752
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.4695607
+        outWeight: 0.41548836
+      - serializedVersion: 3
+        time: 0.779498
+        value: 0.974607
+        inSlope: -0.23213644
+        outSlope: -0.23214284
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.35856426
+        outWeight: 0.36235142
+      - serializedVersion: 3
+        time: 0.897999
+        value: 1.003668
+        inSlope: 0.27978534
+        outSlope: 0.27974313
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.33310264
+        outWeight: 0.33069265
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: -0.20239142
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3296829
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
